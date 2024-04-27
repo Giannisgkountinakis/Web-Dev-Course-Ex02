@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Index file for the second exercise of web-dev-courses" />
+    <meta name="keywords" content="Lesson 2" />
+    <meta name="author" content="Giannis Gkountinakis" />
+
+    <link rel="stylesheet" href="./index-styling.css">
+    
+    <title>Exercise 2</title>
+    
+    <style>
+
+        h1{
+            text-align: center;
+            color: white;
+        }
+
+
+        body{
+            background-color: black;
+        }
+
+        p{
+            color:white
+        }
+
+        ul {
+            list-style-type: none;
+             margin: 0;
+             padding: 0;
+             overflow: hidden;
+            background-color: #333;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+    <header>
+
+        <h1> RS7 </h1>
+
+        <nav>
+            <ul>
+                <li> <a href="../Other-pages/services.html">Services</a> </li>
+                <li> <a href="../Other-pages/contact.html">Contacts</a> </li> 
+                <li> <a href="#about">About</a></li>
+            </ul> 
+         </nav>
+
+    </header>
+
+    
+    <main>
+        <section>
+
+            <p class="introduction">
+                 <strong>Lets talk about something interesting! </strong>
+            </p>
+
+            <br>
+            
+            <article>
+
+                <h2 style="color: white;"> The Evolution of Supercars !!!</h2>
+                
+                <p> 
+                    The Audi RS7 epitomizes the fusion of high-performance engineering and luxury craftsmanship in the automotive world.
+                    The Audi RS7 seamlessly combines performance and luxury, setting new standards for exhilarating driving experiences.
+                </p>
+
+                <img src="./rs7.webp" alt="rs7" title="rs7" width="400" height="400">
+                
+                <video width="400" height="400" controls autoplay muted loop preload="none">
+                    <source src="https://youtu.be/ZFNbL8KXLe8?si=6lbO4IfahyIBqmT8/mp4" type="video/mp4">
+                    <source src="https://youtu.be/ZFNbL8KXLe8?si=6lbO4IfahyIBqmT8/ogg" type="video/ogg">
+                    Your browser does not support the video tag
+                </video>
+            </article>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="about" style="background-color: darkslategrey;">
+            <h1>About us</h1>
+            <em style="color: white;">
+                Welcome to Apex, where innovation is our fuel. With a legacy of excellence, we're dedicated to crafting cars that redefine driving. Our mission? To inspire, innovate, and deliver unparalleled performance. Join us as we shape the future of mobility, one groundbreaking vehicle at a time.</em>
+        </section>
+
+        <br>
+        <section style="color: white;">
+            <div id="Conclusion">
+                Everything you need to know about RS7 was <a href="./index.html"> here </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <article>
+            <h1>&copy;</h1>
+            <p>All content on this site is protected by copyright law. Copying, distributing, or reproducing any material without permission is prohibited. For inquiries regarding the use of content, please contact <a href="../Other-pages/contact.html"> here </a>. <br> &copy; 2024 Audi. <br> All rights reserved.</p>
+        </article>
+    </footer>
+    
+</body>
+</html>
